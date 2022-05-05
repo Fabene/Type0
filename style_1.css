@@ -1,0 +1,245 @@
+body{
+    background-image: url("img/Main/1505556.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+    
+}
+.skilldetails{
+    display: flex;
+    flex-direction: row;
+
+}
+.lienav{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.logo{
+    height:75px ;
+    width: 200px;
+}
+.nav{
+    background-color:rgba(235, 214, 214, 0.637) ;
+    
+}
+.A{
+    flex-basis: 25%;
+    height: 5vh;
+    padding-left: 5vw;
+
+}
+
+.lienav a{
+    background-color:rgba(235, 214, 214, 0.637) ;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10% 5px 10% ;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    
+}
+.lienav a:hover{
+    background-color: rgba(70, 70, 67, 0.63);
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(235, 214, 214, 0.637) ;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2vh;
+
+}
+.specitems{
+    margin-top: 2vh;
+    height: 10vh;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.News{
+    flex-basis: 25%;
+    height: 0%;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    margin-left: 3vw;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.buildtext{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.pics{
+    height:100%;
+    width: 50%;
+    border-radius: 50rem;
+    padding-left: 1vw;
+    
+}
+#Shiva{
+    height:100%;
+    width: 50%;
+    border-radius: 50rem;
+    padding-left: 1vw;
+    margin-left: 25%;
+}
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+    text-align: left;
+    font-size:small;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.guidetext{
+    text-align: left;
+    font-size:small;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 0.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flexskill{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    height: 10vh;
+    width: 8vw;
+    border-radius: 1rem;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    border: solid;
+    border-color: black;
+}
+.icon{
+    image-resolution: 100%;
+    width: 65%;
+    height: 20vh;
+    margin-left: 10vw;
+    border: solid;
+    border-color: black;
+    border-radius: 1rem;
+}
+.smalltitle{
+    text-align: center;
+    
+}
+.carouselcase{
+    display: flex;
+    width:750px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    border: solid;
+    border-color: black;
+    border-radius: 1rem 1rem 1rem 1rem;
+    justify-content: space-around;
+    height: 400px;
+    
+    
+
+}
+.carouselpics{
+    width: 750px;
+    height: 100%;
+    border-radius: 0.25rem .025rem 0.25rem .0.25rem;
+    opacity: 0.880;
+}
+.carouselpics:hover{
+    opacity: 1;
+    
+}
+
+
+.img{
+    animation-name: Animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1); 
+}
+
+@keyframes Animation{
+    0%{
+        position: relative;
+        left:100%;
+    }
+    25%{
+        position: relative;
+        left:0%
+    }
+    50%{
+        position: relative;
+        left:-100%
+    }
+    75%{
+        position: relative;
+        left: 0%;
+    }
+    100%{
+        position: relative;
+        left:100%;
+    }
+}
+.movingtext{
+    display: flex;
+    width: 500px;
+    height: 35px;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.carouseltext{
+    text-align: center;
+    font-size: medium;
+    width: 300px;
+    position: relative;
+    margin-right:220px;
+}
+.textAnim{
+    animation-name: Animationtext;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1); 
+}
+@keyframes Animationtext{
+    0%{
+        position: relative;
+        left:100%;
+    }
+    25%{
+        position: relative;
+        left:0%
+    }
+    50%{
+        position: relative;
+        left:-100%
+    }
+    75%{
+        position: relative;
+        left: 0%;
+    }
+    100%{
+        position: relative;
+        left:100%;
+    }
+}
